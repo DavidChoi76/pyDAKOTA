@@ -1,5 +1,4 @@
-pyDAKOTA
-========
+# pyDAKOTA
 
 pyDAKOTA is an interface to Sandia Laboratory's Design Analysis Kit for Optimization and Terascale Applications (DAKOTA) analysis suite. 
 
@@ -7,25 +6,14 @@ Allows for users to construct DAKOTA input, feed the input to DAKOTA, and for DA
 
 This allows for a light-weight custom python interace to DAKOTA.
 
-This is intended to be used with the OpenMDAO [dakota driver][1]
+This is intended to be used with the OpenMDAO [dakota driver](https://github.com/WISDEM/dakota_driver)
 
-
-  [1]: https://github.com/WISDEM/dakota_driver
-
-Author: [NREL WISDEM](mailto:nrel.wisdem@gmail.com)
-
-## Prerequisites
-
-General: NumPy, OpenMDAO, DAKOTA
-
-## Dependencies:
-
-Supporting python packages: mpi4py
+Author: [NREL WISDEM Team](mailto:systems.engineering@nrel.gov) 
 
 ## Installation
 
 ### Install DAKOTA
-First, [download DAKOTA](https://github.com/WISDEM/JacketSE) and [install from source](https://dakota.sandia.gov/content/using-builddakotatemplatecmake-script). Some CMAKE files are provided in the resources/ directory.
+First, [download DAKOTA](https://dakota.sandia.gov) and [install from source](https://dakota.sandia.gov/content/using-builddakotatemplatecmake-script). Some CMAKE files are provided in the resources/ directory.
 
 Find a cmake file which works for your system, then install DAKOTA with the following commands (this assumes an osx environment):
 
